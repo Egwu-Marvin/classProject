@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
+import { Inter, Shadows_Into_Light_Two } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+
+const shadow2 = Shadows_Into_Light_Two({ subsets: ["latin"], weight:["400"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +14,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={shadow2.className}>
+        
+        <Navbar />
+        <div className="min-h-screen text-4xl">
+        {children}
+        </div>
+      
+      <Footer />
+      </body>
     </html>
   );
 }
