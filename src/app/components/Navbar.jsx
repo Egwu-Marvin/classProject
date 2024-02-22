@@ -5,33 +5,42 @@ import { ImMenu3 } from "react-icons/im";
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
+import { ImCross } from "react-icons/im";
+
 
 
 export default function Navbar() {
-  const [cart, setCart] = useState(0)
+  // hooks are used to change the initial value of a state.
+  const [cart, setCart] = useState(7)
+  const [open, setOpen] = useState(true)
 
+  function controlNav(){
+    setOpen(!open)
+  }
+  
   return (
-    <nav className= "flex justify-between px[2rem] py-8">
-      <ul className= "flex items-start gap-3">
-        <li>
+    <div>
+    <nav className= "flex justify-between px[2rem] py-0">
+      <ul className= "flex items-center gap-7 ">
+        <li className='pt-0'>
             <Link href="/">
-            <Image src = "/illumine-transperent logo.png" width= "33" height= "33" alt= "logo" />
+            <Image src = "/img/illumine-transperent2.png" width= "100" height= "10" alt= "logo" className='pl-7 ' />
+{/* 
+            <span className='ml-4  text-yellow-700 font-bold'>BUSINESS HUB</span> 
+            <br /> */}
+            <span className='ml-7 text-yellow-700 font-bold'>...Home Of Spectacular Gadgets And Accessories</span>
             </Link>
         </li>
-        <li>
-        <Link href= "/" className="flex flex-col">
-            <span>Check it later</span>
-            </Link> 
-        </li>
+        
       </ul>
 
-      <ul className="justify-center hidden gap-3 md:flex">
+      <ul className={` md:flex ${open ? 'hidden' : 'flex flex-col'} justify-center gap-7 p-8 font-bold text-yellow-700 text-xl`}>
         <li>
-        <Link href="/latest">Latest</Link>
+        <Link href="/">Home</Link>
         </li>
         
         <li>
-        <Link href="/topics">Topics</Link>
+        <Link href="/products">Products</Link>
         </li>
         
         <li>
@@ -43,18 +52,28 @@ export default function Navbar() {
         </li>
 
         <li>
-        <Link href="/cart">
+        <Link href="/" className='flex gap-1 border border-yellow-700 '>
           <HiOutlineShoppingCart />
           <span>{cart}</span>
         </Link>
         </li>
       </ul>
 
-      <ul className="inline md:hidden">
-        <li>
+      <ul className={`md:hidden text-3xl ${open ? 'flex' : 'hidden'}`}>
+        <li onClick={controlNav}>
           <ImMenu3 />
         </li>
       </ul>
+      
+      <ul className={`md:hidden text-2xl ${open ? 'hidden' : 'flex'}`}>
+        <li onClick={controlNav}>
+          <ImCross />
+        </li>
+      </ul>
     </nav>
+      <span className='bg-yellow-700 flex justify-center text-white text-xl py-1'>
+      <p><b>Free Shipping </b>on all orders above ₦700,000</p>
+      </span>
+      </div>
   )
 }
