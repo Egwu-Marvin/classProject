@@ -32,8 +32,11 @@ export default function About() {
           <Image src='/img/jebraLogo.jpg' alt='JebraLogo' width={70} height={100} />
           <Image src='/img/univelcity_logo.jpg' alt='UnivelcityLogo' width={70} height={100} className='max-w-none'/>
           <Image src='/img/itelLogo.jpg' alt='ItelLogo' width={70} height={100} />
+          
           <Image src='/img/hpLogo.jpg' alt='HpLogo' width={70} height={100} />
+
           <Image src='/img/newAgeLogo.jpg' alt='NewAgeLogo' width={70} height={100} />
+
         </div>
 
       </div>
