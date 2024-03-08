@@ -4,7 +4,15 @@ import React from 'react'
 
 
 export default function Home() {
+
+  const { tsParticles } = require("tsparticles-engine");
+const { loadExternalRemoveInteraction } = require("tsparticles-interaction-external-remove");
+
+(async () => {
+  await loadExternalRemoveInteraction(tsParticles);
+})();
   return (
+    
     <main>
       
       <div className=' justify-center text-center grid -mb-28 font-bold items-center '>
