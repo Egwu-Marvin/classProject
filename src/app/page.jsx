@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -25,7 +26,7 @@ export default function Home() {
 
       <div className='grid grid-cols-2 items-center pl-[200px] pt-6 md:grid '>
         <Link href='/products' className='pr-7'>
-          <p className='text-center font-bold '><p className='mt-24'>Our Gadgets</p></p>
+          <div className='text-center font-bold '><p className='mt-24'>Our Gadgets</p></div>
           <Image src= '/img/vrBlackfront.jpg' alt='Black VR' height={50} width={500} />
         </Link>
 

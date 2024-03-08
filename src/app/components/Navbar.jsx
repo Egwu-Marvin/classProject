@@ -11,7 +11,7 @@ import { ImCross } from "react-icons/im";
 
 export default function Navbar() {
   // hooks are used to change the initial value of a state.
-  const [cart, setCart] = useState(7)
+  const [cart, setCart] = useState(0)
   const [open, setOpen] = useState(true)
 
   function controlNav(){
@@ -19,7 +19,7 @@ export default function Navbar() {
   }
   
   return (
-    <div>
+    <div suppressHydrationWarning >
     <nav className= "flex justify-between px[2rem] py-0">
       <ul className= "flex items-center gap-7 ">
         <li className='pt-0'>
