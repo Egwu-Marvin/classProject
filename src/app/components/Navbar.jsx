@@ -24,17 +24,17 @@ export default function Navbar() {
       <ul className= "flex items-center gap-7 ">
         <li className='pt-0'>
             <Link href="/">
-            <Image src = "/img/illumine-transperent2.png" width= "100" height= "10" alt= "logo" className='pl-7 ' />
-{/* 
-            <span className='ml-4  text-yellow-700 font-bold'>BUSINESS HUB</span> 
-            <br /> */}
-            <span className='ml-7 text-yellow-700 font-bold'>...Home Of Spectacular Gadgets And Accessories</span>
+            <Image src = "/img/illumine-transperent2.png" width= "100" height= "10" alt= "logo" className='pl-2 -mb-2 ml-7 ' />
+
+            <span className='ml-3 text-xl  text-yellow-700 font-bold'>BUSINESS HUB</span> 
+            <br />
+            <span className='ml-9 text-yellow-700 font-bold '>...Spectacular Gadgets And Accessories Is Just Part Of The Picture</span>
             </Link>
         </li>
         
       </ul>
 
-      <ul className={` md:flex ${open ? 'hidden' : 'flex flex-col'} justify-center gap-7 p-8 font-bold text-yellow-700 text-xl`}>
+      <ul className={` md:flex ${open ? 'hidden' : 'flex flex-col'} justify-center gap-7 p-8 font-bold text-yellow-700 text-xl `}>
         <li>
         <Link href="/">Home</Link>
         </li>

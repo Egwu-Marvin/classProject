@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
     padding: 2rem;
 }
 
@@ -10,11 +10,11 @@
     padding: 10px 0;
 }
 .footer ul{
-    padding-right: 70px;
+    padding-right: 10px;
 }
 
-.footer div:first-of-type{
-    padding-bottom: 100px;
-    border-bottom: 4px solid rgb(161, 98, 7);
+.footer div:last-of-type{
+    padding-bottom: 0px;
+    border-bottom: 7px solid rgb(161, 98, 7);
 }
-
+ */

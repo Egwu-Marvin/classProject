@@ -7,10 +7,11 @@ const year = new Date().getFullYear()
 
 export default function Footer() {
   return (
-    <footer className={`h-[55vh] bg-yellow-50 ${styles.footer}`}>
-     
+    <footer className={` h-[55vh] bg-yellow-50 ${styles.footer} `}>
 
-     <div className='flex items-start'>
+      <div className='grid grid-cols md:grid-cols-2'>
+      <div>
+     <div className='flex justify-between'>
      <section>
       <h2>Navigate</h2>
       <ul>
@@ -85,8 +86,13 @@ export default function Footer() {
         </li>
       </ul>
      </section>
+      </div>
+      </div>
 
-     <section className='pl-[350px]'>
+{/* sub */}
+
+<div>
+     <section className='pl-80'>
       <h2>Subscribe</h2>
       <p>Join our newsletter and get vouchers and exclusive deals straight to your inbox</p>
      
@@ -100,9 +106,10 @@ export default function Footer() {
                 </p>
             
      </section>
+</div>
      </div>
-
-     
+       
+       <p className='bg-yellow-800 text-yellow-800'>.</p>
         <div className='flex font-bold justify-center'> Copyright &copy; {year} Illumine Business Hub.
         <p className='pl-7 pr-1'>Powered By </p> 
         <Link href='/'>  

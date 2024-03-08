@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={shadow2.className}>
         
         <Navbar />
-        <div className="min-h-screen text-4xl">
+        <div className="min-h-screen text-4xl bg-slate-800">
         {children}
         </div>
       

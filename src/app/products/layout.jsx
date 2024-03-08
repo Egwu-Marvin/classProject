@@ -6,9 +6,13 @@ export default function layout({children}) {
   return (
 
     <div >
-          <nav className='bg-yellow-700 flex justify-center text-white text-xl py-1 mx-96 rounded-b-xl border-t-4 border-yellow-900'>
+          <nav className='bg-yellow-700 flex justify-center text-white text-xl py-1 lg:mx-96 rounded-b-xl border-t-4 border-yellow-900'>
 
   <Link href='/products' className='px-7 rounded animate-pulse'>
+    All Products
+  </Link>
+ 
+  <Link href='/products/gadgets' className='px-7  rounded animate-pulse'>
     Gadgets
   </Link>
 
@@ -16,6 +20,8 @@ export default function layout({children}) {
     Accessories
   </Link>
   </nav>
+
+  
 
 
       {children}

@@ -1,23 +1,29 @@
 import React from 'react'
-import Image from 'next/image'
 import ProductImage from '../ProductImage'
 
-export default function accessories() {
+
+export default function Accessories() {
   return (
-    <div className='grid grid-cols-3 pt-7'>
+    
+      <div className='grid grid-cols-3 pt-7'>
+        
+        <ProductImage src='/img/powerBox2.jpg' alt='PowerBox' pname='Power Box'/>
+
+        <ProductImage src='/img/charger.jpg' alt='PowerBox' pname='Phone Charger'/>
+        
+        <ProductImage src='/img/newAgePowerBank.jpg' alt='New Age Power Bank' pname='New Age Powerbank'/>
+     
+        <ProductImage src='/img/powerBank.jpg' alt='Power Bank' pname='LCD Power Bank' />
+
+        <ProductImage src='/img/laptopCharger.jpg' alt='Laptop Charger' pname='Laptop Charger' />
+        
+        <ProductImage src='/img/powerBank2.jpg' alt='Power bank' pname='Power Bank'/>
+        
+        <ProductImage src='/img/earphone.jpg' alt='Earbud' pname='Earbud'/>
+
+        <ProductImage src='/img/headphoneStanding.jpg' alt='Earbud' pname='Wired Headphone'/>
       
-        <ProductImage src='/img/powerBox2.jpg' alt='laptop powerbank' pname='Laptop PowerBox' />
-        
-        <ProductImage src='/img/powerbank2.jpg' alt='powerbank' pname='Power Bank' />
-        
-        <ProductImage src='/img/headphoneStanding.jpg' alt='Wired headphone' pname='Wired Headphone' />
-        
-        <ProductImage src='/img/headphone.jpg' alt='Wireless headphone' pname='Wireless Headphone' />
-        
-        <ProductImage src='/img/earphone.jpg' alt='earbud' pname='Earbud' />
-        
-        <ProductImage src='/img/laptopCharger.jpg' alt='laptop charger' pname='Laptop Charger' />
-        
-    </div>
+      </div>
+    
   )
 }
