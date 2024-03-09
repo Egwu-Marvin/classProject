@@ -15,7 +15,7 @@ export default function Home() {
     
     <main>
       
-      <div className=' justify-center text-center grid -mb-28 font-bold items-center '>
+      <div className=' justify-center text-center grid -mb-28 font-bold items-center'>
         
       <p className=' hover:animate-pulse text-yellow-700'>This Is </p>
       <span className='flex justify-center'>
@@ -31,7 +31,7 @@ export default function Home() {
             
       </div>
 
-      <div className='grid grid-cols-2 items-center pl-[200px] pt-6 md:grid '>
+      <div className='grid grid-cols-2 items-center pl-[200px] pt-6 md:grid  '>
         <Link href='/products' className='pr-7'>
           <div className='text-center font-bold '><p className='mt-24'>Our Gadgets</p></div>
           <Image src= '/img/vrBlackfront.jpg' alt='Black VR' height={50} width={500} />
