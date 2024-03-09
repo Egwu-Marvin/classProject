@@ -5,12 +5,12 @@ import React from 'react'
 
 export default function Home() {
 
-  const { tsParticles } = require("tsparticles-engine");
-const { loadExternalRemoveInteraction } = require("tsparticles-interaction-external-remove");
+//   const { tsParticles } = require("tsparticles-engine");
+// const { loadExternalRemoveInteraction } = require("tsparticles-interaction-external-remove");
 
-(async () => {
-  await loadExternalRemoveInteraction(tsParticles);
-})();
+// (async () => {
+//   await loadExternalRemoveInteraction(tsParticles);
+// })();
   return (
     
     <main>
