@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className={` h-[55vh] bg-yellow-50 ${styles.footer} `}>
 
-      <div className='grid grid-cols md:grid-cols-2'>
+      <div className='grid grid-cols lg:grid-cols-2'>
       <div>
      <div className='flex justify-between'>
      <section>
@@ -92,7 +92,7 @@ export default function Footer() {
 {/* sub */}
 
 <div>
-     <section className='pl-80'>
+     <section className='pl-40 sm:pl-80 lg:pl-40'>
       <h2>Subscribe</h2>
       <p>Join our newsletter and get vouchers and exclusive deals straight to your inbox</p>
      

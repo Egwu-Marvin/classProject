@@ -208,7 +208,7 @@ export const products = [
   export default function AllProducts() {
     return (
       
-      <div className='grid grid-cols-3 pt-7 '>
+      <div className='grid  grid-cols-2 lg:grid-cols-3 pt-7 '>
 
 
       
