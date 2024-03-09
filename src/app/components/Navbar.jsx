@@ -20,7 +20,7 @@ export default function Navbar() {
   
   return (
     <div>
-    <nav className= "flex justify-between px[2rem] py-0">
+    <nav className= "flex  justify-between px[2rem] py-0">
       <ul className= "flex items-center gap-7 ">
         <li className='pt-0'>
             <Link href="/">
