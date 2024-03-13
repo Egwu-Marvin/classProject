@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 
+
 export default function Home() {
 
 //   const { tsParticles } = require("tsparticles-engine");
@@ -13,9 +14,9 @@ export default function Home() {
 // })();
   return (
     
-    <main>
+    <main className='grid grid-cols-1'>
       
-      <div className=' justify-center text-center grid -mb-28 font-bold items-center'>
+      <div className=' justify-center text-center grid  font-bold items-center '>
         
       <p className=' hover:animate-pulse text-yellow-700'>This Is </p>
       <span className='flex justify-center'>
@@ -31,17 +32,18 @@ export default function Home() {
             
       </div>
 
-      <div className='grid grid-cols-2 items-center pl-[200px] pt-6 md:grid  '>
-        <Link href='/products' className='pr-7'>
-          <div className='text-center font-bold '><p className='mt-24'>Our Gadgets</p></div>
-          <Image src= '/img/vrBlackfront.jpg' alt='Black VR' height={50} width={500} />
-        </Link>
+      <div className='grid grid-cols-2  pt-6 '>
+        <Link href='/products' className='col-span-1 w-[100%] flex flex-col justify-end items-end' >
+          <div className='text-center font-bold ml-20 '><p className='mr-24'>Our Gadgets</p></div>
+          <Image src= '/img/vrBlackfront.png' alt='Black VR' height={50} width={500} className=''/>
+        </Link> 
 
-        <Link href='/products/accessories'className='pl-12 font-bold'>
-          <p>Our Accessories</p>
+        <Link href='/products/accessories' className='pl-12 font-bold col-span-1'>
+          <p className=''>Our Accessories</p>
         <Image src= '/img/powerBox2.jpg' alt='Laptop Powerbank' height={200} width={400}  />
         </Link>
       </div>
+      
 
     </main>
   )

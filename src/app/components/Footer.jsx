@@ -9,11 +9,11 @@ export default function Footer() {
   return (
     <footer className={` h-[55vh] bg-yellow-50 ${styles.footer} `}>
 
-      <div className='grid grid-cols md:grid-cols-2'>
+      <div className='grid grid-cols lg:grid-cols-2'>
       <div>
-     <div className='flex justify-between'>
+     <div className='flex justify-between p-7'>
      <section>
-      <h2>Navigate</h2>
+      <h2 className='font-black'>Navigate</h2>
       <ul>
         <li>
           <Link href='/'>Home</Link>
@@ -39,22 +39,27 @@ export default function Footer() {
 
 
      <section>
-      <h2>Shop</h2>
+      <h2 className='font-black'>Shop</h2>
       <ul>
         <li>
-          <Link href='/products'>Gadgets</Link>
+          <Link href='/products'>All Products</Link>
+        </li>
+
+        <li>
+          <Link href='/products/gadgets'>Gadgets</Link>
         </li>
 
         <li>
           <Link href='/products/accessories'>Accessories</Link>
         </li>
 
+
       </ul>
      </section>
 
 
      <section>
-      <h2>Account</h2>
+      <h2 className='font-black'>Account</h2>
       <ul>
         <li>
           <Link href='/'>Login</Link>
@@ -71,14 +76,14 @@ export default function Footer() {
      </section>
 
      <section>
-      <h2>Care</h2>
+      <h2 className='font-black'>Care</h2>
       <ul>
         <li>
-          <Link href='/'>Delivery</Link>
+          <Link href='/contact'>Delivery</Link>
         </li>
 
         <li>
-          <Link href='/'>Returns</Link>
+          <Link href='/contact'>Returns</Link>
         </li>
 
         <li>
@@ -92,8 +97,8 @@ export default function Footer() {
 {/* sub */}
 
 <div>
-     <section className='pl-80'>
-      <h2>Subscribe</h2>
+     <section className='pl-40 sm:pl-80 lg:pl-40 '>
+      <h2 className='font-bold'>Subscribe</h2>
       <p>Join our newsletter and get vouchers and exclusive deals straight to your inbox</p>
      
                 <form action="" method="post" className='p-3 flex mr-3'>              

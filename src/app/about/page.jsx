@@ -2,29 +2,30 @@ import Image from 'next/image'
 import React from 'react'
 
 export default function About() {
-  
   return (
-    <div>
-      <div className='grid grid-cols-2 items-center pl-52 pt-8'>
-      <p>At <span>Illumine Business Hub</span> your satisfaction is our topmost priority because when that smile comes from your heart to your face, we are satisfied also. That&apos;s why we go in and out of the way to make sure that what you get from quality to durability is always the best so that smile never stop.</p>
+    <div className='max-w-[100%] text-xl'>  
+      <div className='grid grid-cols-2 items-center pl-20 md:pl-40 lg:pl-52 pt-8'>
+      <p>At <span>Illumine Business Hub</span> your satisfaction is our topmost priority because when that smile comes from your heart to your face, we are satisfied also. That's why we go in and out of the way to make sure that what you get from quality to durability is always the best so that smile never stop.</p>
 
       <div>
         <Image src='/img/smilingVR.jpg' height={300} width={300} alt='VR User' />
       </div>
       </div>
 
-      <div  className='grid grid-cols-2 items-center pl-52 pt-8'>
-        <p>Gadgets and accessories is just the beginning at <span>Illumine Business Hub</span> as we go further in making available quality and hygienic food items such as undiluted red oil and vegetable oil, Oron grayfish, rice, beans, egusi, just name it we got it</p>
+      <div  className='grid grid-cols-2 items-center pl-20 md:pl-40 lg:pl-52 pt-32'>
+      
+      
+        <p className=''>Don't be surprise is a business hub that's why Gadgets and accessories is just the beginning at <span>Illumine Business Hub</span> as we go further in making available quality and hygienic food items such as undiluted red oil and vegetable oil, Oron grayfish, rice, beans, egusi, just name it we got it</p>
 
         <div>
-          <Image src='/img/Casio Children Camera.jpg' alt='children camera' height={300} width={300} />
+          <Image src='/img/palmOil.png' alt='Palm Oil' height={300} width={200} />
         </div>
 
       </div>
 
-      <div>
-        <h2 className='flex justify-center pb-10 font-black'>Meet Our Suppliers</h2>
-        <div className='flex space-x-16 justify-center  animate-bounce '>
+      <div className=''>
+        <h2 className='flex justify-center pb-10 font-black '>Meet Our Suppliers</h2>
+        <div className='flex space-x-16 justify-center  animate-bounce overflow-hidden'>
           <Image src='/img/TecnoLogo.png' alt='TecnoLogo' width={70} height={100} />
           <Image src='/img/samsungLogo.png' alt='SamsungLogo' width={70} height={100} />
           <Image src='/img/appleLogo.jpg' alt='AppleLogo' width={70} height={100} />

@@ -8,7 +8,7 @@ export default function Page({params}) {
       <div className='pl-32 items-center'>
         {productCart.visual}
         {productCart.name}
-     <p> Price: {productCart.price} </p>
+     <p> Price: ₦{productCart.price} </p>
         
       </div>
 
