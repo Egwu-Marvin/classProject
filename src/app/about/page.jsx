@@ -15,7 +15,7 @@ export default function About() {
       <div  className='grid grid-cols-2 items-center pl-20 md:pl-40 lg:pl-52 pt-32'>
       
       
-        <p className=''>Don't be surprise is a business hub that&apos;s why Gadgets and accessories is just the beginning at <span>Illumine Business Hub</span> as we go further in making available quality and hygienic food items such as undiluted red oil and vegetable oil, Oron grayfish, rice, beans, egusi, just name it we got it</p>
+        <p className=''>Don&apos;t be surprise is a business hub that&apos;s why Gadgets and accessories is just the beginning at <span>Illumine Business Hub</span> as we go further in making available quality and hygienic food items such as undiluted red oil and vegetable oil, Oron grayfish, rice, beans, egusi, just name it we got it</p>
 
         <div>
           <Image src='/img/palmOil.png' alt='Palm Oil' height={300} width={200} />
