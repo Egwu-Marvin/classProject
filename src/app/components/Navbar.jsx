@@ -28,7 +28,7 @@ export default function Navbar() {
 
             <span className='ml-3 text-xl  text-yellow-700 font-bold'>BUSINESS HUB</span> 
             <br />
-            <span className='ml-9 text-yellow-700 font-bold '>...Spectacular Gadgets And Accessories Is Just Part Of The Picture</span>
+            <span className='ml-7 text-yellow-700 font-bold text-[0.9rem] '>...Spectacular Gadgets And Accessories Is Just Part Of The Picture</span>
             </Link>
         </li>
         
@@ -53,7 +53,7 @@ export default function Navbar() {
 
         <li>
         <Link href="/" className='flex gap-1 border border-yellow-700 '>
-          <HiOutlineShoppingCart />
+          <HiOutlineShoppingCart size={47} />
           <span>{cart}</span>
         </Link>
         </li>

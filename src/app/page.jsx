@@ -19,15 +19,15 @@ export default function Home() {
       <div className=' justify-center text-center grid  font-bold items-center '>
         
       <p className=' hover:animate-pulse text-yellow-700'>This Is </p>
-      <span className='flex justify-center'>
+      <span className='flex justify-center '>
           <Image src= '/img/vr user.avif' alt='vr user' height={50} width={700} />
       </span>
       <h1 className='text-8xl text-yellow-700 font-bold -mt-28 border-b-8 border-black'>Illumine Business Hub</h1>
       
       <p className=' -mt-2 text-yellow-700 border-t-8 border-yellow-700'></p>
 
-              <div className=' -z-10 '>
-              <Image src='/img/dronGif.jpg' alt='drone'  fill='true' />
+              <div className=' -z-10  '>
+              <Image src='/img/dronGif.jpg' alt='drone'  fill='true' className='mt-28 ' />
             </div>
             
       </div>
