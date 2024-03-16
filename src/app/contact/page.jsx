@@ -52,13 +52,13 @@ export default function Contact() {
         <p  className='justify-center flex items-center text-2xl mt-4 '>We Can Also Meet On Social Media Through </p>
         <div className='justify-center flex gap-14'>
 
+         <Link href='https://www.facebook.com/profile.php?id=100064147050726' target='blank'>
+         <FaFacebookF/>
+         </Link>
+
          <SiGmail/>
 
          <FaXTwitter/>
-
-         <Link href='https://www.facebook.com/profile.php?id=100064147050726'>
-         <FaFacebookF/>
-         </Link>
 
          <FaTiktok/>
 
