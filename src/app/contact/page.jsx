@@ -26,7 +26,7 @@ export default function Contact() {
             </ul>
       </div>
            
-           <Image src='/img/drone style.png' alt='slanted drone' fill='true' className='-z-10 pt-28 pl-[30%] ml-96'  />
+           <Image src='/img/drone style.png' alt='slanted drone' fill='true' className='-z-10 pt-28 pl-[30%] '  />
             
 
        <div className='col-span-1 text-[.8rem] sm:text-[1rem] md:text-[1.3rem] ml-24'>
@@ -42,7 +42,7 @@ export default function Contact() {
          <input placeholder="Enter Phone Number" id="phone" name="phone" type="phone" className=' rounded-md mt-3'/> 
         </div>               
                     
-        <button type="submit" className=' rounded-md mt-7  text-yellow-700  '>Submit</button>
+        <button type="submit" className=' rounded-md mt-7  text-yellow-700 font-black bg-white  '>Submit</button>
         </div> 
      
      </div>
