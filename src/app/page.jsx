@@ -18,6 +18,7 @@ export default function Home() {
       
       <div className=' justify-center text-center grid  font-bold items-center '>
         
+        
       <p className=' hover:animate-pulse text-yellow-700'>This Is </p>
       <span className='flex justify-center mt-[30.5%] sm:mt-[4.7%] md:mt-[-4%] lg:mt-[1%] '>
           <Image src= '/img/vr user.avif' alt='vr user' height={50} width={700} />
