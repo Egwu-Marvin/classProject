@@ -5,7 +5,7 @@ import ProductImage from '../ProductImage'
 export default function Accessories() {
   return (
     
-      <div className='grid grid-cols-3 pt-7'>
+      <div className='grid grid-cols-2 lg:grid-cols-3 pt-7'>
         
         <ProductImage src='/img/powerBox2.jpg' alt='PowerBox' pname='Power Box'/>
 

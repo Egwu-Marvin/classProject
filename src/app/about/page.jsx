@@ -24,7 +24,7 @@ export default function About() {
       </div>
 
       <div className=''>
-        <h2 className='flex justify-center pb-10 font-black '>Meet Our Suppliers</h2>
+        <h2 className='flex justify-center pb-10 font-black text-3xl '>Meet Our Suppliers</h2>
         <div className='flex space-x-16 justify-center  animate-bounce overflow-hidden'>
           <Image src='/img/TecnoLogo.png' alt='TecnoLogo' width={70} height={100} />
           <Image src='/img/samsungLogo.png' alt='SamsungLogo' width={70} height={100} />

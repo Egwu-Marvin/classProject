@@ -20,8 +20,11 @@ export default function Contact() {
       <div className='col-span-1 pl-28 '>
          <ul className='text-[.8rem] sm:text-[1rem] md:text-[1.3rem]'>
             <li> Get in touch, we respond to all mail within 48 hours.</li>
-            <li className='flex'><p className='font-bold'>email:</p>contact@illuminebusinesshub.com </li>
-            <li className='flex'> <p className='font-bold'>phone:</p> +2348038784781 </li>
+            
+            <li className='flex'><p className='font-bold'>email:</p><Link href="mailto:egwumarvin@gmail.com" target='_blank'>contact@illuminebusinesshub.com</Link> </li>
+
+            <li className='flex'> <p className='font-bold'>phone:</p> <Link href="tel:+2348038784781"> +2348038784781 </Link></li>
+
             <li className='flex'> <p className='font-bold'>address:</p> Jakande Estate, Lagos Nigeria. </li>
             </ul>
       </div>
@@ -49,14 +52,16 @@ export default function Contact() {
 
 
      <div>
-        <p  className='justify-center flex items-center text-2xl mt-4 '>We Can Also Meet On Social Media Through </p>
-        <div className='justify-center flex gap-14'>
+        <p  className='justify-center flex items-center text-2xl mt-4  font-black '>We Can Also Meet On Social Media Through </p>
+        <div className='justify-center flex gap-16 pt-3 text-yellow-700 text-4xl'>
 
          <Link href='https://www.facebook.com/profile.php?id=100064147050726' target='blank'>
          <FaFacebookF/>
          </Link>
 
+         <Link href="mailto:egwumarvin@gmail.com">
          <SiGmail/>
+         </Link>
 
          <FaXTwitter/>
 

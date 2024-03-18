@@ -5,7 +5,7 @@ import ProductImage from '../ProductImage'
 export default function Gadgets() {
   return (
     
-      <div className='grid grid-cols-3 pt-7'>
+      <div className='grid grid-cols-2 lg:grid-cols-3 pt-7'>
 
         <ProductImage src='/img/playstation5.jpg' alt='Playstation5' pname='Playstation5'/>
 
