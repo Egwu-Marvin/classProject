@@ -16,6 +16,7 @@ export default function About() {
       
       
         <p className=''>Don&apos;t be surprise is a business hub that&apos;s why Gadgets and accessories is just the beginning at <span>Illumine Business Hub</span> as we go further in making available quality and hygienic food items such as undiluted red oil and vegetable oil, Oron grayfish, rice, beans, egusi, just name it we got it</p>
+        
 
         <div>
           <Image src='/img/palmOil.png' alt='Palm Oil' height={300} width={200} />
