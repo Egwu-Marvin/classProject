@@ -20,14 +20,14 @@ export const products = [
   width =  {250} height = {0} /> },
 
   { name: "Phone Charger", 
-  description: ["Canon EOS (Electro-Optical System) is an autofocus single-lens reflex camera (SLR) and mirrorless camera series produced by Canon Inc. Introduced in 1987 with the Canon EOS 650, all EOS cameras used 35 mm film until October 1996 when the EOS IX was released using the new and short-lived APS film"], 
+  description: ["Model: Universal PD Charger USB-C Output: 5V ⎓ 3A / 9V ⎓ 2A USB-A Output: 5V ⎓ 4.5A (max.) Fast Charging Speed Fast Dual Port with High Charging ability Universal charger for; Smartphones, Tablets, Music Player, Bluetooth headset and Speakers, etc..."], 
   type: "camera",
   price: 5600000, 
   visual: <Image src = {`/img/charger.jpg`} alt = "Phone Charger" 
   width =  {250} height = {0} /> },
 
   { name: "Laptop Charger", 
-  description: ["Canon EOS (Electro-Optical System) is an autofocus single-lens reflex camera (SLR) and mirrorless camera series produced by Canon Inc. Introduced in 1987 with the Canon EOS 650, all EOS cameras used 35 mm film until October 1996 when the EOS IX was released using the new and short-lived APS film"], 
+  description: ["New Hp 19.5V 3.33A Laptop Charger – blue/m for all model of HP Envy 19.5V-3.33A.  Also all models of HP Pavillion 15 Laptop with rating of 19.5V-3.33A. Place your order now at best price for all our HP Pavilion Replacement Laptop Charger in Nigeria Market. Material: Plastic. Product: AC Adapter  Fit for:    All HP of same voltage Output Voltage‎:‎ 19.5VOutput Current‎:‎ 3.33A. Total Output Power‎:‎ 65W Tip pin "], 
   type: "camera",
   price: 5600000, 
   visual: <Image src = {`/img/laptopCharger.jpg`} alt = "Laptop Charger" 
