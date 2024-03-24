@@ -7,7 +7,7 @@ export const products = [
   { name: "Apple Laptop", 
   description: ["Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage."], 
   type: "laptop",
-  price: 1599000, 
+  price: "1,599,000", 
   visual: <Image src = {`/img/appleLaptop.jpg`} alt = "apple laptop" 
   width =  {250} height = {0} /> },
 
@@ -15,21 +15,21 @@ export const products = [
   { name: "canonCamera", 
   description: ["Canon EOS (Electro-Optical System) is an autofocus single-lens reflex camera (SLR) and mirrorless camera series produced by Canon Inc. Introduced in 1987 with the Canon EOS 650, all EOS cameras used 35 mm film until October 1996 when the EOS IX was released using the new and short-lived APS film"], 
   type: "camera",
-  price: 5600000, 
+  price: "500,000", 
   visual: <Image src = {`/img/canonCamera.jpg`} alt = "canon camera" 
   width =  {250} height = {0} /> },
 
   { name: "Phone Charger", 
   description: ["Model: Universal PD Charger USB-C Output: 5V ⎓ 3A / 9V ⎓ 2A USB-A Output: 5V ⎓ 4.5A (max.) Fast Charging Speed Fast Dual Port with High Charging ability Universal charger for; Smartphones, Tablets, Music Player, Bluetooth headset and Speakers, etc..."], 
   type: "camera",
-  price: 5600000, 
+  price: "4,500", 
   visual: <Image src = {`/img/charger.jpg`} alt = "Phone Charger" 
   width =  {250} height = {0} /> },
 
   { name: "Laptop Charger", 
   description: ["New Hp 19.5V 3.33A Laptop Charger – blue/m for all model of HP Envy 19.5V-3.33A.  Also all models of HP Pavillion 15 Laptop with rating of 19.5V-3.33A. Place your order now at best price for all our HP Pavilion Replacement Laptop Charger in Nigeria Market. Material: Plastic. Product: AC Adapter  Fit for:    All HP of same voltage Output Voltage‎:‎ 19.5VOutput Current‎:‎ 3.33A. Total Output Power‎:‎ 65W Tip pin "], 
   type: "camera",
-  price: 5600000, 
+  price: "12,000", 
   visual: <Image src = {`/img/laptopCharger.jpg`} alt = "Laptop Charger" 
   width =  {250} height = {0} /> },
 
@@ -37,7 +37,7 @@ export const products = [
   { name: "Drone", 
   description: ["Featuring a 1-inch CMOS sensor, powerful autonomous functions, and a compact body weighing less than 600 g, DJI Air 2S is the ultimate drone for aerial photographers on the move. Take this all-in-one aerial powerhouse along anywhere to experience and record your world in stunning detail."],
   type: "drone",
-  price: 2500000,
+  price: "1,500,000",
   visual: <Image src = {`/img/smalDrone.jpg`} alt = "dji drone" 
   width =  {300} height = {0} /> },
 
@@ -45,7 +45,7 @@ export const products = [
   { name: "DJ1 Drone", 
   description: ["Featuring a 1-inch CMOS sensor, powerful autonomous functions, and a compact body weighing less than 600 g, DJI Air 2S is the ultimate drone for aerial photographers on the move. Take this all-in-one aerial powerhouse along anywhere to experience and record your world in stunning detail."], 
   type: "drone",
-  price: 2500000, 
+  price: "2,000,000", 
   visual: <Image src = {`/img/dronDJ1.jpg`} alt = "dronDJ1" 
   width =  {250} height = {0} /> },
 
@@ -53,7 +53,7 @@ export const products = [
   { name: "earbud", 
   description: ["Bluetooth. Bluetooth is a specification that almost all earbuds have. Noise canceling. Noise canceling is a specification you see more and more often with earbuds. Built-in microphone. Almost all earbuds have a built-in microphone. Waterproofness. NFC. Hi-Res audio."], 
   type: "earphone",
-  price: 46000, 
+  price: "46,000", 
   visual: <Image src = {`/img/earphone.jpg`} alt = "earbud" 
   width =  {400} height = {0} /> },
 
@@ -83,14 +83,14 @@ export const products = [
 
 
   { name: "LCD Power Bank", 
-  description: ["Splash, Water and Dust Resistant 3 Rated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529. Chip. A16 Bionic chip. ..Camera. Advanced dual-camera system. ...Video Recording. 4K video recording at 24 fps, 25 fps, 30 fps or 60 fps. ...TrueDepth Camera. 12MP camera. ...Face ID. ...Safety. ...Cellular and Wireless."], 
+  description: ["LCD Power Bank is a portable battery that can be used to charge electronic devices such as mobile phones, tablets, and laptops. It usually has multiple USB ports and can be charged through a wall outlet or a computer USB port. NewAge Power Banks come in a variety of sizes and capacities, with some models capable of charging multiple devices simultaneously. They are a convenient and eco-friendly way to stay powered on the go."], 
   type: "powerbank",
   price: 1500000, 
   visual: <Image src = {`/img/powerBank.jpg`} alt = "powerbank" 
   width =  {300} height = {300} /> },
 
   { name: "Power Bank", 
-  description: ["Splash, Water and Dust Resistant 3 Rated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529. Chip. A16 Bionic chip. ..Camera. Advanced dual-camera system. ...Video Recording. 4K video recording at 24 fps, 25 fps, 30 fps or 60 fps. ...TrueDepth Camera. 12MP camera. ...Face ID. ...Safety. ...Cellular and Wireless."], 
+  description: ["Power Bank is a portable battery that can be used to charge electronic devices such as mobile phones, tablets, and laptops. It usually has multiple USB ports and can be charged through a wall outlet or a computer USB port. NewAge Power Banks come in a variety of sizes and capacities, with some models capable of charging multiple devices simultaneously. They are a convenient and eco-friendly way to stay powered on the go."], 
   type: "powerbank",
   price: 1500000, 
   visual: <Image src = {`/img/powerBank2.jpg`} alt = "powerbank" 
@@ -129,7 +129,7 @@ export const products = [
 
 
   { name: "New Age Powerbank", 
-  description: ["Oranges are juicy and packed with vitamin C, making them great for juicing. They add a burst of citrus flavor to your morning routine.", "Oranges are not only refreshing but also a nutritious choice."], 
+  description: ["A NewAge Power Bank is a portable battery that can be used to charge electronic devices such as mobile phones, tablets, and laptops. It usually has multiple USB ports and can be charged through a wall outlet or a computer USB port. NewAge Power Banks come in a variety of sizes and capacities, with some models capable of charging multiple devices simultaneously. They are a convenient and eco-friendly way to stay powered on the go."], 
   type: "Citrus Fruits",
   price: 1.99, 
   visual: <Image src = {`/img/newAgePowerBank.jpg`} alt = "powerbank" 
@@ -145,29 +145,29 @@ export const products = [
 
 
   { name: "JBL Headphone",
-  description: ["Strawberries are juicy and versatile, making them ideal for a wide range of desserts.", "They pair wonderfully with chocolate, cream, and other fruits.", "Whether you're making a strawberry shortcake or adding them to your morning breakfast, they are a crowd-pleaser."], 
-  type: "Berries",
+  description: ["Product Line: De Javu  Model: P9 Wireless  Production Country: China Size (L x W x H cm): N/A  Weight (kg): 0.09  Certifications: Fair Trade-Eco Friendly  Color: Blue  Main Material: plastic  From the Manufacturer: Extra Bass Sound  Foldable and adjustable  Bluetooth, TF Card, Aux modes Color: black  Long lasting battery"], 
+  type: "Headphone",
   price: 2.79, 
    visual: <Image src = {`/img/jblHeadphone.jpg`} alt = "strawberry" 
    width =  {300} height = {300} /> },
 
 
   { name: "Headphone Standing", 
-  description: ["Red raspberries are known for their delicate and sweet taste.", "They are perfect for fresh consumption and can be enjoyed on their own or added to various desserts.", "These vibrant berries add a touch of elegance to your culinary creations."], 
+  description: ["Product Line: De Javu  Model: P9 Wireless  Production Country: China Size (L x W x H cm): N/A  Weight (kg): 0.09  Certifications: Fair Trade-Eco Friendly  Color: Blue  Main Material: plastic  From the Manufacturer: Extra Bass Sound  Foldable and adjustable  Bluetooth, TF Card, Aux modes Color: black  "], 
   type: "Headphone", 
-  price: 4.29, 
+  price: "45,500", 
   visual: <Image src = {`/img/headphoneStanding.jpg`} alt = "raspberries" 
   width =  {300} height = {300} />},
   
   { name: "JBL Gray headphone", 
-  description: ["Red raspberries are known for their delicate and sweet taste.", "They are perfect for fresh consumption and can be enjoyed on their own or added to various desserts.", "These vibrant berries add a touch of elegance to your culinary creations."], 
+  description: ["Product Line: De Javu  Model: P9 Wireless  Production Country: China Size (L x W x H cm): N/A  Weight (kg): 0.09  Certifications: Fair Trade-Eco Friendly  Color: Blue  Main Material: plastic  From the Manufacturer: Extra Bass Sound  Foldable and adjustable  Bluetooth, TF Card, Aux modes Color: black  Long lasting battery"], 
   type: "Headphone", 
   price: 4.29, 
   visual: <Image src = {`/img/headphone.jpg`} alt = "JBL Gray Headphone" 
   width =  {300} height = {300} />},
 
   { name: "Iphone15 Pro", 
-  description: ["Red raspberries are known for their delicate and sweet taste.", "They are perfect for fresh consumption and can be enjoyed on their own or added to various desserts.", "These vibrant berries add a touch of elegance to your culinary creations."], 
+  description: ["The iPhone 15 features a 6.1-inch (155 mm) display with Super Retina XDR OLED technology at a resolution of 2556×1179 pixels and a pixel density of about 460 PPI with a refresh rate of 60 Hz."], 
   type: "phone", 
   price: 4.29, 
   visual: <Image src = {`/img/Iphone15.jpg`} alt = "Iphone15 Pro" 
@@ -181,7 +181,7 @@ export const products = [
   width =  {300} height = {300} /> },
 
   { name: "Smart Watch", 
-  description: ["Red raspberries are known for their delicate and sweet taste.", "They are perfect for fresh consumption and can be enjoyed on their own or added to various desserts.", "These vibrant berries add a touch of elegance to your culinary creations."], 
+  description: ["Oraimo Smartwatch is a wearable device that tracks various health and fitness metrics, such as heart rate, steps, calories burned, and sleep patterns. It also received notifications for calls, messages, and apps. The smartwatch has a touch screen and can be controlled using voice commands. It is compatible with both Android and iOS devices and can be connected to a smartphone app for added features."], 
   type: "watch", 
   price: 4.29, 
   visual: <Image src = {`/img/smatWatchGif.jpg`} alt = "Smart Watch" 
@@ -197,7 +197,7 @@ export const products = [
   
 
   { name: "Power Box", 
-  description: ["Bananas are sweet and portable, perfect for snacking.", "They are a convenient source of energy and can be enjoyed on the go"], 
+  description: ["Equipped with five output ports and 2 input ports, oraimo PowerBox 600 can charge up to 5 devices simultaneously, and it can be quickly recharged. Two USB outputs that support AniFast™ technology can charge a device up to 22.5W super fast."], 
   type: "Tropical Fruits",
   price: 0.99, 
   visual: <Image src = {`/img/powerBox2.jpg`} alt = "banana" 
