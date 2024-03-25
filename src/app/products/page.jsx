@@ -61,7 +61,7 @@ export const products = [
   { name: "jbl headphone", 
   description: ["Frequency Response: This is the range of bass, mids, and treble. Impedance: Lower-impedance headphones require less power to deliver high audio levels. Sensitivity: This refers to how loud the headphones can get."], 
   type: "headphone",
-  price: 164000, 
+  price: "64,000", 
   visual: <Image src = {`/img/headphone.jpg`} alt = "jbl headphone" 
   width =  {400} height = {300} /> },
 
@@ -69,7 +69,7 @@ export const products = [
   { name: "headphone wired", 
   description: ["Frequency Response: This is the range of bass, mids, and treble. Impedance: Lower-impedance headphones require less power to deliver high audio levels. Sensitivity: This refers to how loud the headphones can get."], 
   type: "headphone",
-  price: 1.99, 
+  price: "30,000", 
   visual: <Image src = {`/img/headphoneStanding.jpg`} alt = "headphone wired" 
   width =  {250} height = {200} /> },
 
@@ -77,7 +77,7 @@ export const products = [
   { name: "Iphone 15", 
   description: ["Splash, Water and Dust Resistant 3 Rated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529. Chip. A16 Bionic chip. ..Camera. Advanced dual-camera system. ...Video Recording. 4K video recording at 24 fps, 25 fps, 30 fps or 60 fps. ...TrueDepth Camera. 12MP camera. ...Face ID. ...Safety. ...Cellular and Wireless."], 
   type: "phone",
-  price: 1500000, 
+  price: "1,500,000", 
   visual: <Image src = {`/img/iphone15InBox.jpg`} alt = "Iphone15" 
   width =  {400} height = {300} /> },
 
@@ -85,14 +85,14 @@ export const products = [
   { name: "LCD Power Bank", 
   description: ["LCD Power Bank is a portable battery that can be used to charge electronic devices such as mobile phones, tablets, and laptops. It usually has multiple USB ports and can be charged through a wall outlet or a computer USB port. NewAge Power Banks come in a variety of sizes and capacities, with some models capable of charging multiple devices simultaneously. They are a convenient and eco-friendly way to stay powered on the go."], 
   type: "powerbank",
-  price: 1500000, 
+  price: "34,000", 
   visual: <Image src = {`/img/powerBank.jpg`} alt = "powerbank" 
   width =  {300} height = {300} /> },
 
   { name: "Power Bank", 
   description: ["Power Bank is a portable battery that can be used to charge electronic devices such as mobile phones, tablets, and laptops. It usually has multiple USB ports and can be charged through a wall outlet or a computer USB port. NewAge Power Banks come in a variety of sizes and capacities, with some models capable of charging multiple devices simultaneously. They are a convenient and eco-friendly way to stay powered on the go."], 
   type: "powerbank",
-  price: 1500000, 
+  price: "35,500", 
   visual: <Image src = {`/img/powerBank2.jpg`} alt = "powerbank" 
   width =  {300} height = {300} /> },
 
@@ -100,7 +100,7 @@ export const products = [
   { name: "Playstation5", 
   description: ["The original PlayStation 5 console with optical drive, and DualSense controller.  CPU	Custom 8-core AMD Zen 2 Variable frequency up to 3.5 GHz. Memory	16 GB/256-bit GDDR6 SDRAM 512 MB DDR4 RAM (used as SSD controller cache) Storage	Custom 825 GB PCIe 4.0 NVMe SSD 1 TB in 2023 version"], 
   type: "game console",
-  price: 2.99, 
+  price: "400,000", 
   visual: <Image src = {`/img/playstation5.jpg`} alt = "playstation5" 
   width =  {300} height = {300} /> },
 
@@ -108,7 +108,7 @@ export const products = [
   { name: "Playstation4", 
   description: ["The original PlayStation4 console with optical drive, and DualSense controller.  CPU	Custom 8-core AMD Zen 2 Variable frequency up to 3.5 GHz. Memory	8 GB/256-bit GDDR6 SDRAM 512 MB DDR4 RAM (used as SSD controller cache) Storage	Custom 825 GB PCIe 4.0 NVMe SSD 1TB in 2023 version"], 
   type: "game console",
-  price: 2.99, 
+  price: "300,000", 
   visual: <Image src = {`/img/playstation4.jpg`} alt = "playstation4" 
   width =  {300} height = {300} /> },
 
@@ -116,22 +116,22 @@ export const products = [
   { name: "Black VR", 
   description: ["Memory	4 GB RAM or more	8 GB RAM or more. Video output	DisplayPort 1.2 or newer	DisplayPort 1.2 or newer USB port	1x USB 3.0 or newer	1x USB 3.0 or newerOperating system	Windows 10	Windows 10, Windows 11"], 
   type: "vr",
-  price: 3.49, 
+  price: "450,000", 
   visual: <Image src = {`/img/vr2.jpg`} alt = "black vr" 
   width =  {400} height = {300} /> },
 
   { name: "White VR", 
   description: ["Memory	4 GB RAM or more	8 GB RAM or more. Video output	DisplayPort 1.2 or newer	DisplayPort 1.2 or newer USB port	1x USB 3.0 or newer	1x USB 3.0 or newerOperating system	Windows 10	Windows 10, Windows 11"], 
   type: "vr",
-  price: 3.49, 
+  price: "450,000", 
   visual: <Image src = {`/img/vr.jpg`} alt = "White VR" 
   width =  {400} height = {300} /> },
 
 
   { name: "New Age Powerbank", 
   description: ["A NewAge Power Bank is a portable battery that can be used to charge electronic devices such as mobile phones, tablets, and laptops. It usually has multiple USB ports and can be charged through a wall outlet or a computer USB port. NewAge Power Banks come in a variety of sizes and capacities, with some models capable of charging multiple devices simultaneously. They are a convenient and eco-friendly way to stay powered on the go."], 
-  type: "Citrus Fruits",
-  price: 1.99, 
+  type: "Power Bank",
+  price: "34,500", 
   visual: <Image src = {`/img/newAgePowerBank.jpg`} alt = "powerbank" 
   width =  {300} height = {200} /> },
 
@@ -139,7 +139,7 @@ export const products = [
   { name: "Canon Camera", 
   description: ["Image sensor technology.Image engine technology.Dual-pixel CMOS AF.Area AF (autofocus) technology. An optical viewfinder that captures the subject's movement in real time. High-speed continuous shooting up to approx. 16 frames per second. New mirror actuating system."], 
   type: "camera",
-  price: 3.49, 
+  price: "750,000", 
   visual: <Image src = {`/img/canonCamera.jpg`} alt = "canon camera" 
   width =  {300} height = {300} /> },
 
@@ -147,7 +147,7 @@ export const products = [
   { name: "JBL Headphone",
   description: ["Product Line: De Javu  Model: P9 Wireless  Production Country: China Size (L x W x H cm): N/A  Weight (kg): 0.09  Certifications: Fair Trade-Eco Friendly  Color: Blue  Main Material: plastic  From the Manufacturer: Extra Bass Sound  Foldable and adjustable  Bluetooth, TF Card, Aux modes Color: black  Long lasting battery"], 
   type: "Headphone",
-  price: 2.79, 
+  price: "34,500", 
    visual: <Image src = {`/img/jblHeadphone.jpg`} alt = "strawberry" 
    width =  {300} height = {300} /> },
 
@@ -162,35 +162,35 @@ export const products = [
   { name: "JBL Gray headphone", 
   description: ["Product Line: De Javu  Model: P9 Wireless  Production Country: China Size (L x W x H cm): N/A  Weight (kg): 0.09  Certifications: Fair Trade-Eco Friendly  Color: Blue  Main Material: plastic  From the Manufacturer: Extra Bass Sound  Foldable and adjustable  Bluetooth, TF Card, Aux modes Color: black  Long lasting battery"], 
   type: "Headphone", 
-  price: 4.29, 
+  price: "35,500", 
   visual: <Image src = {`/img/headphone.jpg`} alt = "JBL Gray Headphone" 
   width =  {300} height = {300} />},
 
   { name: "Iphone15 Pro", 
   description: ["The iPhone 15 features a 6.1-inch (155 mm) display with Super Retina XDR OLED technology at a resolution of 2556×1179 pixels and a pixel density of about 460 PPI with a refresh rate of 60 Hz."], 
   type: "phone", 
-  price: 4.29, 
+  price: "1,500,000", 
   visual: <Image src = {`/img/Iphone15.jpg`} alt = "Iphone15 Pro" 
   width =  {300} height = {300} />},
 
   { name: "Wired Headphone", 
   description: ["Splash, Water and Dust Resistant 3 Rated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529. Chip. A16 Bionic chip. ..Camera. Advanced dual-camera system. ...Video Recording. 4K video recording at 24 fps, 25 fps, 30 fps or 60 fps. ...TrueDepth Camera. 12MP camera. ...Face ID. ...Safety. ...Cellular and Wireless."], 
-  type: "phone",
-  price: 1500000, 
+  type: "Headphone",
+  price: "25,000", 
   visual: <Image src = {`/img/headphoneStanding.jpg`} alt = "Wireless Headphone" 
   width =  {300} height = {300} /> },
 
   { name: "Smart Watch", 
   description: ["Oraimo Smartwatch is a wearable device that tracks various health and fitness metrics, such as heart rate, steps, calories burned, and sleep patterns. It also received notifications for calls, messages, and apps. The smartwatch has a touch screen and can be controlled using voice commands. It is compatible with both Android and iOS devices and can be connected to a smartphone app for added features."], 
   type: "watch", 
-  price: 4.29, 
+  price: "55,500", 
   visual: <Image src = {`/img/smatWatchGif.jpg`} alt = "Smart Watch" 
   width =  {300} height = {300} />},
 
   { name: "Earbud", 
   description: ["Red raspberries are known for their delicate and sweet taste.", "They are perfect for fresh consumption and can be enjoyed on their own or added to various desserts.", "These vibrant berries add a touch of elegance to your culinary creations."], 
   type: "Earbud", 
-  price: 4.29, 
+  price: "35,000", 
   visual: <Image src = {`/img/earphone.jpg`} alt = "Earbud" 
   width =  {300} height = {300} />},
 
@@ -198,8 +198,8 @@ export const products = [
 
   { name: "Power Box", 
   description: ["Equipped with five output ports and 2 input ports, oraimo PowerBox 600 can charge up to 5 devices simultaneously, and it can be quickly recharged. Two USB outputs that support AniFast™ technology can charge a device up to 22.5W super fast."], 
-  type: "Tropical Fruits",
-  price: 0.99, 
+  type: "Power Bank",
+  price: "55,000", 
   visual: <Image src = {`/img/powerBox2.jpg`} alt = "banana" 
   width =  {300} height = {200} />}] 
 
