@@ -1,5 +1,4 @@
 {
-  "no-schema": true,
   "extends": [
     "next/core-web-vitals",
     "next",
