@@ -14,11 +14,10 @@ export const CartProvider = ({children}) => {
 
   const [quant, setQuant] = useState(1);
 
-  if (typeof window !== "undefined") {
-    // Client-side-only code
-  }
+  
     
-  const productCart = products.find((product) =>
+  const productCart = products.find(
+(product) =>
 
       product.name.split(" ").join("-") === window.location.pathname.split("/").slice(-1)[0]
 
