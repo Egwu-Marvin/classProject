@@ -1,6 +1,7 @@
 'use client'
-import React, {createContext, useContext, useState, } from 'react'
+import React, {createContext, useContext, useEffect, useState, } from 'react'
 import { products } from '@/app/products/page';
+import { useEffect } from 'react';
 
 
 const CartContext = createContext()
@@ -30,18 +31,17 @@ if (typeof window !== "undefined"){
   //   const [cartQuant, setCartQuant] = useState(quantity);
 
  
-
+    useEffect(() =>{
   const addToCart = (product) => {
 
     // Check if the product already exists in the addedItems array
 
     console.log(
 
-      product.name.split(" ").join("-") ===
-
-        window.location.pathname.split("/").slice(-1)[0]
-
+      product.name.split(" ").join("-") === window.location.pathname.split("/").slice(-1)[0]
     );
+    
+  }},[]);
 
     console.log(product.name.split(" ").join("-"));
 
@@ -272,7 +272,7 @@ if (typeof window !== "undefined"){
 
   );
 
-};
+
 
  
 
