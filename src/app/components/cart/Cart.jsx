@@ -1,6 +1,5 @@
 'use client'
 import React, {createContext, useContext, useState, } from 'react'
-import { useRouter } from 'next/router';
 import { products } from '@/app/products/page';
 
 
@@ -30,7 +29,7 @@ if (typeof window !== "undefined"){
 
   //   const [cartQuant, setCartQuant] = useState(quantity);
 
-}
+ 
 
   const addToCart = (product) => {
 
@@ -51,6 +50,8 @@ if (typeof window !== "undefined"){
       window.location.pathname.split("/").slice(-1)[0]
 
     );
+  }
+
 
     const prodCardIndex = cartItems.findIndex(
 
