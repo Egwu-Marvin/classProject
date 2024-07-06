@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className='max-w-[100%] text-xl'>  
       <div className='grid grid-cols-2 items-center pl-20 md:pl-40 lg:pl-52 pt-8'>
-      <p>At <span>Illumine Business Hub</span> your satisfaction is our topmost priority because when that smile comes from your heart to your face, we are satisfied also. That&apos;s why we go in and out of the way to make sure that what you get from quality to durability is always the best so that smile never stop.</p>
+      <p>At <span>Illumine Business Hub</span> your satisfaction is our topmost priority because when that smile comes from your heart to your face, we are satisfied also.That&apos;s why we go in and out of the way to make sure that what you get from quality to durability is always the best so that smile never stop.</p>
 
       <div>
         <Image src='/img/smilingVR.jpg' height={300} width={300} alt='VR User' />
