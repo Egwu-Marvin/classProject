@@ -1,11 +1,12 @@
 "use client"
 import React from 'react'
-import { HiOutlineShoppingCart } from "react-icons/hi2";
-import { ImMenu3 } from "react-icons/im";
+// import { HiOutlineShoppingCart } from "react-icons/hi2";
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
+import { ImMenu3 } from "react-icons/im";
 import { ImCross } from "react-icons/im";
+import CartPage from './cart/page';
 
 
 
@@ -51,12 +52,10 @@ export default function Navbar() {
         <Link href="/contact">Contacts</Link>
         </li>
 
-        <li>
-        <Link href="/" className='flex gap-1 border border-yellow-700 '>
-          <HiOutlineShoppingCart size={47} />
-          <span>{cart}</span>
-        </Link>
+        <li className='flex gap-1 text-4xl'>
+          <CartPage/>
         </li>
+
       </ul>
 
       <ul className={`md:hidden text-3xl ${open ? 'flex' : 'hidden'}`}>

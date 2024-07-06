@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import { products } from '../page'
+import CartButton from '@/app/components/cart/CartButton'
 
 export default function Page({params}) { 
   const productCart = products.find(product => product.name.split(' ').join('-') == params.prodSlug)
@@ -9,13 +11,16 @@ export default function Page({params}) {
         {productCart.visual }
         {productCart.name}
      <p> Price: ₦{productCart.price} </p>
-      {/* <h2>{productCart.type}</h2> */}
+      <h2>{productCart.type}</h2>
         
       </div>
+
 
       <span className='text-2xl sm:text-3xl '>
         <p className='font-bold'>Description:</p> 
         {productCart.description[0]}
+
+      <CartButton productCart={productCart}/>
       </span>
 
     </div>
