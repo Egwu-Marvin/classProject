@@ -1,5 +1,6 @@
 'use client'
 import React, {createContext, useContext, useState, } from 'react'
+import { useRouter } from 'next/router';
 import { products } from '@/app/products/page';
 
 
@@ -14,7 +15,7 @@ export const CartProvider = ({children}) => {
 
   const [quant, setQuant] = useState(1);
 
-  
+if (typeof window !== "undefined"){  
     
   const productCart = products.find(
 (product) =>
@@ -29,7 +30,7 @@ export const CartProvider = ({children}) => {
 
   //   const [cartQuant, setCartQuant] = useState(quantity);
 
- 
+}
 
   const addToCart = (product) => {
 
