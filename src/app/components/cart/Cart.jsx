@@ -15,11 +15,11 @@ export const CartProvider = ({children}) => {
   const [quant, setQuant] = useState(1);
   
   
-  useEffect (() => {
+  // useEffect (() => {
   
   const productCart = products.find((product) => product.name.split(" ").join("-") === window.location.pathname.split("/").slice(-1)[0] );
     
-      },[]);
+      // },[]);
       
       const addToCart = (product) => {
         
@@ -247,6 +247,4 @@ export const useCart = () => {
 
 // if(typeof window !== "undefined") {
 // }
-
-
 
