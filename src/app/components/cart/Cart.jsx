@@ -248,5 +248,3 @@ export const useCart = () => {
 // if(typeof window !== "undefined") {
 // }
 
-
-

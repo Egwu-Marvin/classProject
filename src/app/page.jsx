@@ -36,7 +36,7 @@ export default function Home() {
       <div className='grid grid-cols-2  pt-6 '>
         <Link href='/products' className='col-span-1 w-[100%] flex flex-col justify-end items-end' >
           <div className='text-center font-bold ml-20 '><p className='mr-24'>Our Gadgets</p></div>
-          <Image src= '/img/vrBlackfront.png' alt='Black VR' height={50} width={500} className=''/>
+          <Image src= '/img/vrBlackfront.png' alt='Black VR' height={50} width={450} className=''/>
         </Link> 
 
         <Link href='/products/accessories' className='pl-12 font-bold col-span-1'>

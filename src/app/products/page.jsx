@@ -201,7 +201,9 @@ export const products = [
   type: "Power Bank",
   price: 55000, 
   visual: <Image src = {`/img/powerBox2.jpg`} alt = "banana" 
-  width =  {300} height = {200} />}] 
+  width =  {300} height = {200} />
+}
+] 
 
 
 
