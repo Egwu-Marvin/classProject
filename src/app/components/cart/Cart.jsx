@@ -59,10 +59,7 @@ export const CartProvider = ({children}) => {
       
       if (totalQuantity > product.stock) {
         
-        // perfume.stock += "(Available stock in cart)";
-        
-        // alert("Stock unavailable.");
-        
+         
         return;
         
       }
@@ -208,21 +205,6 @@ export const CartProvider = ({children}) => {
             
             setQuant,
             
-            // cart,
-            
-            // setCart,
-            
-            // addedItems,
-            
-            // setAddedItems,
-            
-            // quantity,
-            
-            // setQuantity,
-            
-            // cartQuant,
-            
-            // setCartQuant,
             
           }}
           
